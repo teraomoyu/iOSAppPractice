@@ -13,6 +13,7 @@
 		A7DBEAE62695F61700AA445B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7DBEAE42695F61700AA445B /* Main.storyboard */; };
 		A7DBEAE82695F62000AA445B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7DBEAE72695F62000AA445B /* Assets.xcassets */; };
 		A7DBEAEB2695F62000AA445B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7DBEAE92695F62000AA445B /* LaunchScreen.storyboard */; };
+		A7DBEAF52695F9E000AA445B /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DBEAF42695F9E000AA445B /* QuizViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A7DBEAE72695F62000AA445B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7DBEAEA2695F62000AA445B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7DBEAEC2695F62000AA445B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7DBEAF42695F9E000AA445B /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				A7DBEAE72695F62000AA445B /* Assets.xcassets */,
 				A7DBEAE92695F62000AA445B /* LaunchScreen.storyboard */,
 				A7DBEAEC2695F62000AA445B /* Info.plist */,
+				A7DBEAF42695F9E000AA445B /* QuizViewController.swift */,
 			);
 			path = MathTraining;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 				A7DBEAE32695F61700AA445B /* ViewController.swift in Sources */,
 				A7DBEADF2695F61700AA445B /* AppDelegate.swift in Sources */,
 				A7DBEAE12695F61700AA445B /* SceneDelegate.swift in Sources */,
+				A7DBEAF52695F9E000AA445B /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
