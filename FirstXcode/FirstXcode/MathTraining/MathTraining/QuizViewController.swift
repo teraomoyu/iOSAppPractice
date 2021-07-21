@@ -25,6 +25,12 @@ class QuizViewController: UIViewController {
         setQuiestions()
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let resultVC = segue.destination as? ResultViewController{
+            resultVC.result = Double(correct) / Double(total) * 100.0
+        }
+    }
+    
     @IBAction func tapped(sender: UIButton) {
         if sender.tag - 1 == answerIndex {
             correct += 1
